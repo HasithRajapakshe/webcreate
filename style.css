@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    
+    
 }
 
 .main{
@@ -256,3 +258,26 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: #3176c5;
 }
+.Vision{
+    margin-top: 55px;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column ;
+    gap: 2rem;
+}  
+
+
+      
+.number {
+        transition: transform 0.3s ease;
+      }
+      
+.number:hover {
+        transform: scale(1.2);
+      }
+footer {
+        background-color: #f9f9f9;
+        padding: 20px;
+        text-align: center;
+      }
+ 
