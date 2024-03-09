@@ -7,7 +7,6 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/01.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -280,4 +279,33 @@ footer {
         padding: 20px;
         text-align: center;
       }
- 
+
+      .nav {
+        background-color: #0a0950;
+        overflow: hidden;
+        width: 1300px;
+        height: 75px;
+        margin: auto;
+      
+      }
+      
+      .nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      .nav li {
+        float: left;
+      }
+      
+      .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+      
+        text-decoration: none;
+      }
+      
+      
