@@ -189,7 +189,7 @@ ul li a:hover{
     color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
-    margin-top: 30px;
+    margin-top: 12px;
     font-family: sans-serif;
 }
 
@@ -238,20 +238,7 @@ ul li a:hover{
     padding-bottom: 10px;
     text-align: center;
 }
-.icons a{
-    text-decoration: none;
-    color: #fff;
-}
-.icons ion-icon{
-    color: #fff;
-    font-size: 30px;
-    padding-left: 14px;
-    padding-top: 5px;
-    transition: 0.3s ease;
-}
-.icons ion-icon:hover{
-    color: #3176c5;
-}
+
 .Vision{
     margin-top: 55px;
     padding: 0 5rem;
@@ -302,23 +289,15 @@ ul li a:hover{
     .about{
         width:100%;
         }
-    .about h1{
+    .about h2{
         text-align: center;
-        font-size: 40px;
-        color: #9697a1;
+        font-size: 35px;
+        color: #1d7bb1;
         text-transform: uppercase;
         letter-spacing: 1.5px;
-        margin-top: 50px;
+        margin-top: 105px;
     }
-    .about h1::after{
-        content: "";
-        height: 5px;
-        width: 200px;
-        background-color: #9697a1;
-        border-radius:10px;
-        display: block;
-        margin: auto;
-    }
+    
     .wrapper{
         padding: 0px 60px;
         margin: 60px auto;
@@ -368,6 +347,7 @@ ul li a:hover{
     min-height: 100vh;
     padding: 50px;
     text-align: center;
+    margin-top: 60px;
 }
 .con1{
     max-width: 800px;
@@ -377,7 +357,7 @@ ul li a:hover{
 .con1 h2{
     font-size: 36px;
     margin-bottom: 40px;
-    color: #333;
+    color: #1d7bb1;
 
 }
 .Con-Wrapper{
@@ -391,7 +371,7 @@ ul li a:hover{
 .Con-form h3{
     font-size: 24px;
     margin-bottom: 20px;
-    color:#333;
+    color:#323435;
 }
 .Form-group{
     margin-bottom: 15px;
@@ -401,8 +381,8 @@ input,textarea{
     padding: 12px;
     border-radius: 8px;
     border:none ;
-    background-color:rgb(78, 204, 221);
-    color: #333;
+    background-color:#387aa7;
+    color: #f5eded;
 }
 input:focus,textarea:focus{
     outline: none;
@@ -411,7 +391,7 @@ input:focus,textarea:focus{
 button{
     display: inline-block;
     padding: 12px 24px;
-    background-color: #4caf50;
+    background-color: #03b103;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -433,7 +413,7 @@ button:hover{
     color: #555;
 }
 .Contac-info i{
-    color:#4caf50;
+    color:#03b103;
     margin-right: 10px;
 }
 .topic h2{
