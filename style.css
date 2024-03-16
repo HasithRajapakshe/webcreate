@@ -5,17 +5,12 @@
     
 }
 
-.main{
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-}
 
 .navbar{
     width: 1300px;
     height: 75px;
     margin: auto;
+    
 }
 
 .icon{
@@ -274,11 +269,7 @@ ul li a:hover{
 .number:hover {
         transform: scale(1.2);
       }
-footer {
-        background-color: #f9f9f9;
-        padding: 20px;
-        text-align: center;
-      }
+
 
       .nav {
         background-color: #0a0950;
@@ -294,18 +285,157 @@ footer {
         margin: 0;
         padding: 0;
         overflow: hidden;
-      }
-      
-      .nav li {
+    }
+    
+    .nav li {
         float: left;
-      }
-      
-      .nav li a {
+    }
+    
+    .nav li a {
         display: block;
         color: white;
         text-align: center;
-      
+    
         text-decoration: none;
-      }
-      
-      
+    }
+    .about{
+        width:100%;
+        }
+    .about h1{
+        text-align: center;
+        font-size: 40px;
+        color: #9697a1;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        margin-top: 50px;
+    }
+    .about h1::after{
+        content: "";
+        height: 5px;
+        width: 200px;
+        background-color: #9697a1;
+        border-radius:10px;
+        display: block;
+        margin: auto;
+    }
+    .wrapper{
+        padding: 0px 60px;
+        margin: 60px auto;
+  }
+  .ctn{
+    width: 500px;
+    float: left;
+    text-align: left;
+    padding: 0px 30px;
+  }
+
+  .imsec{
+    width: 40%;
+    float: right;
+    padding: 0px 30px;
+    
+ .imsec img {
+    max-width: 100%;
+    height:auto;
+
+}
+  }  
+  footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.ctn.h3{
+    letter-spacing: 1px;
+
+}
+.ctn.p{
+    font-size: 18px;
+    color: #3d3d3d;
+    margin-top: 20px;
+}
+.icns a{
+    text-decoration: none;
+    color: #080808;
+}
+
+.icns ion-icon:hover{
+    color: #3176c5;
+}
+.con{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+.con1{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.con1 h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+
+}
+.Con-Wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 260px;
+}
+.Con-form{
+    text-align: left;
+}
+.Con-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#333;
+}
+.Form-group{
+    margin-bottom: 15px;
+}
+input,textarea{
+    width:100%;
+    padding: 12px;
+    border-radius: 8px;
+    border:none ;
+    background-color:rgb(78, 204, 221);
+    color: #333;
+}
+input:focus,textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #45a049;
+}
+.Contac-info{
+    text-align: left;
+}
+.Contac-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.Contac-info p{
+    margin-bottom: 10px;
+    color: #555;
+}
+.Contac-info i{
+    color:#4caf50;
+    margin-right: 10px;
+}
+.topic h2{
+  
+  color: #1d7bb1;
+}
